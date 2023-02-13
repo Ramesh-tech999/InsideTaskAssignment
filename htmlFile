@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Business Landing Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+
+
+    <div class="holder">
+        <header id="header">
+            <div class="container">
+                <nav class="navbar">
+                    <div class="brand-and-toggler">
+                        <a href="index.html" class="navbar-brand">Create.co</a>
+                        <button class="navbar-toggler" type="button">
+                            <span>
+                                <i class="fas fa-bars"></i>
+                            </span>
+                        </button>
+                    </div>
+
+                    <div class="navbar-collapse">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Service</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Team</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Blog</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Contact</a>
+                            </li>
+                        </ul>
+
+                        <div class="header-btns">
+                            <a href="#" class="btn btn-login">Log in</a>
+                            <a href="#" class="btn btn-start">Getting Started</a>
+                        </div>
+                    </div>
+                </nav>
+
+                <div class="banner" id="homePage">
+                    <div class="banner-top">
+                        <img src="https://www.linkpicture.com/q/5618169-removebg-preview.png" alt="5618169" />
+                    </div>
+                    <div class="banner-left">
+                        <h1 class="banner-title">grow your business with <span>social media marketing</span></h1>
+                        <p class="banner-text">Social media platforms offer your company a voice. Whether you’re posting insightful content on LinkedIn, taking a stand on Twitter, or sharing news through Facebook, social media allows your company to become a thought leader, building trust and loyalty among your customers.</p>
+
+                        <div class="form-item">
+
+                            <button onclick='displyContactUsFormFunction()' class="submit-btn">Contact us</button>
+                        </div>
+
+
+                        <ul class="social-links">
+                            <li>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fab fa-youtube"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fab fa-whatsapp"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="banner-right">
+                        <img src="https://www.linkpicture.com/q/5618169-removebg-preview.png" alt="5618169" />
+                    </div>
+                </div>
+                <div id="displyContactUsForm" class="ContactUsForm">
+                    <div class="form-box">
+                        <h2 class="form-heading">Contact Us</h2>
+                        <label class="text-name" for="name">Name</label>
+                        <input type="text" class="input-elm" id='name' placeholder="Name" />
+                        <label class="text-name" for="email">Email</label>
+                        <input type="email" class="input-elm" id='email' placeholder="Email" />
+                        <label class="text-name" for="textarea">Message</label>
+                        <textarea cols="40" id="textArea" rows="5" placeholder="Message..."></textarea>
+                        <button type="submit" onclick="onclickSubmitForm()" class="submit-btn margin-btm">Send</button>
+                    </div>
+                </div>
+            </div>
+        </header>
+    </div>
+</body>
+
+</html>
